@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -57,7 +58,8 @@ body {
 .narc__content > div {
   background-color: black;
   width: 100%;
-  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -65,7 +67,7 @@ body {
 }
 .narc__content > div > span > a, .narc__content > div span {
   color: white;
-  font-size: 12px;
+  font-size: 1vw;
   text-decoration: none;
 }
 .narc__content > div > span > a:hover {
