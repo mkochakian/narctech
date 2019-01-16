@@ -30,6 +30,7 @@ body {
 }
 .narc > span {
   text-transform: uppercase;
+  text-align: center;
   color: #ffe74c;
   font-family: 'Open Sans';
   font-weight: 800;
